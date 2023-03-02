@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
-*{
-    
-}
 h1 {
     color: #e53170;
     text-align: center;
     margin-top: 50px;
     font-family: 'Nerko One';
-    height: 144px;
+    height: 74px;
+    font-size: 50px;
 }
 header p{
     text-align: center;
     margin-right: 22px;
     font-style: italic;
+    margin: auto 25%;
+    font-size: large;
 }
