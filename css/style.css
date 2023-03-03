@@ -1,17 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
-h1 {
+* {
+    box-sizing: border-box;
+}
+
+header h1{
     color: #e53170;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     font-family: 'Nerko One';
     height: 74px;
     font-size: 50px;
 }
 header p{
     text-align: center;
-    margin-right: 22px;
-    font-style: italic;
-    margin: auto 25%;
     font-size: large;
+    width: 70%;
+    margin: 0 auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flyingitems{
+    background-color: black;
+    color: white;
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    height: 100px;
+}
+img {
+    float: left; 
+    height: 100%;
+    margin-right: 10px;
+}
+div h1{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+div a{
+    color: aqua;
 }
